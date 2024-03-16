@@ -1,0 +1,11 @@
+version: "3"
+services:
+  db:
+    image: postgres:latest
+    container_name: 460-db
+    environment:
+      POSTGRES_DB: inventory_db
+      POSTGRES_USER: inventory_user
+      POSTGRES_PASSWORD: inventory_password
+    ports:
+      - 5432:5432

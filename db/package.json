@@ -1,0 +1,17 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ex": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.28",
+    "@types/pg": "^8.11.2",
+    "pg": "^8.11.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
